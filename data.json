@@ -1,0 +1,204 @@
+var data = [{
+"name":"Plank", 
+"img":"Pictures/plank.jpg", 
+"desc" : "Plank is an isometric core strength exercise that involves maintaining a difficult position for extended periods of time. The most common plank is the front plank which is held in a push-up position with the body's weight borne on forearms, elbows, and toes. It builds isometric strength to help sculpt your waistline and improve your posture. And depending on the type of plank you try, you can also engage your back, arms, shoulders, glutes, and hamstrings.",
+"steps":[ 
+{
+"S_desc":"Step 1", 
+"L_desc":"Line up your shoulders directly over your hands and your hips directly over your knees. Inhale deeply. As you breathe in, elongate your spine by lifting your head and tailbone. Exhale, slowly. Round your spine by lifting your belly, dropping your head and rear, and rolling your shoulders forward.", 
+"Pic":"Plank image/plankstep1.jpg"
+},
+{
+"S_desc":"Step 2", 
+"L_desc":"Move your body into the plank pose. Keep your legs extended, your shoulders broad, and your head forward. Hold yourself squarely off the floor with your toes and palms. If you started on all fours, slowly tuck your toes and step back with your feet. Bring your body and your head into one straight line. If you started prone, slowly raise yourself into a basic push-up position.", 
+"Pic":"Plank image/plankstep2.jpg"
+},
+{
+"S_desc":"Step 3", 
+"L_desc":"Find a balance. Keep your thighs lifted. Your body should not curve, but rather should form a straight and balanced line. Be careful not to let to let your hips sink. Align your body so that your shoulders are directly above your wrists, and hold it there.", 
+"Pic":"Plank image/plankstep3.jpg"
+},
+{
+"S_desc":"Step 4", 
+"L_desc":"Hold the pose. Take deep, measured breaths. If you are incorporating the pose into a yoga flow, hold it for five smooth breaths and then transition into the next position. If you are using planks to build strength and stamina, hold the pose for as long as you can. Start with 30-60 seconds, but don't worry too much about keeping in tune with the stopwatch. Focus on perfecting your form and getting the most out of your planks.", 
+"Pic":"Plank image/plankstep4.jpg"
+},
+{
+"S_desc":"Step 5", 
+"L_desc":"End the pose when you are done. Transition to another yoga position, return to your hands and knees, or lay down again to rest, prone.", 
+"Pic":"Plank image/plankstep5.jpg"
+}
+],
+"info":{ 
+	"instruction" : "Inhale and get into plank position",
+	"info":"<p style =\"color: #FFFFFF;\">female - 10 seconds</p><p style =\"color: #FFFFFF;\">Male - 46 seconds</P><p style =\"color: #FFFFFF;\">1 day - 5 times</p><p style =\"color: #FFFFFF;\">3 sets: burn 30 calories</p><p style =\"color: #FFFFFF;\">other types of planks:</p><p style =\"color: #FFFFFF;\">raised leg plank</p><p style =\"color: #FFFFFF;\">side plank</p><p style =\"color: #FFFFFF;\">full plank</p>"
+}
+},
+{
+"name":"Leg Raise", 
+"img":"Pictures/leg raise.jpg", 
+"desc":"Leg raise is a strength training exercise which targets the iliopsoas (the interior hip flexors). Because the abdominal muscles are used isometrically to stabilize the body during the motion, leg raises are also often used to strengthen the rectus abdominis muscle and the internal and external oblique muscles. Most beneficial when you perform them slowly. Swinging your legs back and forth creates momentum rather than working the focus muscle groups, so avoid swinging. Also, follow the leg raises in your abdominal and core workout with exercises that work the opposing muscle group -- the lower back specifically -- and stretch before moving to the next part of your workout.",
+"steps":[ 
+{
+"S_desc":"Step 1", 
+"L_desc":"Lie flat on your back with your legs stretched out in front of you. Your legs should just be a toe's width apart. Make sure to keep your hands down flat on the ground near your sides, with your palms down.", 
+"Pic":"leg raise image/legraisestep1.jpg"
+},
+{
+"S_desc":"Step 2", 
+"L_desc":"Bend your knees and raise your legs. Your calves should be parallel to the ground, while your thighs are perpendicular. You should keep your toes pointed while you do this, drawing your abdominal muscles toward your spine. Your thighs should be perpendicular to your body, while your shins should be parallel.", 
+"Pic":"leg raise image/legraisestep2.jpg"
+},
+{
+"S_desc":"Step 3", 
+"L_desc":"Straighten your legs until your feet are pointed at the ceiling. Keep your toes pointed and raise your legs as slowly as possible. Remember not to let your lower back arch off the ground, or you may injure yourself and you won't be getting as good of a workout.", 
+"Pic":"leg raise image/legraisestep3.jpg"
+},
+{
+"S_desc":"Step 4", 
+"L_desc":"Slowly lower your legs. Bring them down as far as you can while keeping your back flat against the floor. Your eventual goal is to reach about an inch off the floor. Don't just let gravity work for you -- make sure you're in control. Hold your arms in the same place, but use them for strength and support as you lower your legs.", 
+"Pic":"leg raise image/legraisestep4.jpg"
+},
+{
+"S_desc":"Step 5", 
+"L_desc":"Slow it down if this exercise is too easy. For even more of a workout, you can lift your straightened legs all the up on a count of ten, and then lower them down while counting to ten again. This will definitely give your abs a great workout, but it is a bit more of a challenge.", 
+"Pic":"leg raise image/legraisestep5.jpg"
+},
+{
+"S_desc":"Step 6", 
+"L_desc":"Repeat 3 sets of 10-20 leg lifts. Start with 3 sets of 10 and build your way up to 3 sets of 20.", 
+"Pic":"leg raise image/legraisestep6.jpg"
+}
+],
+"info":{ 
+	"info":"<p style =\"color: #FFFFFF;\">10-20 leg raise</p><p style =\"color: #FFFFFF;\">1day - 3 sets</P><p style =\"color: #FFFFFF;\">expert - 3sets of 20</p><p style =\"color: #FFFFFF;\">Other types of leg raise:</p><p style =\"color: #FFFFFF;\">leg raise with a ball</p><p style =\"color: #FFFFFF;\">Hanging leg raise</p><p style =\"color: #FFFFFF;\">Side leg raise</p>"
+}
+},
+{
+"name":"Push Up", 
+"img":"Pictures/push up.jpg", 
+"desc": "Push up is a common calisthenics exercise performed in a prone position by raising and lowering the body using the arms. The standard push up activates nearly every muscle in your body, which yields far more than toned muscles and increased endurance. If you are not convinced about adopting a push up routine into your exercise program, or you simply wish to understand the power of this simple exercise, continue reading to uncover the real benefits of doing push ups.",
+"steps":[ 
+{
+"S_desc":"Step 1", 
+"L_desc":"Assume a face-down prone position on the floor. Keep your feet together. Your weight should be on your chest.", 
+"Pic":"pushupimage/step1.jpg"
+},
+{
+"S_desc":"Step 2", 
+"L_desc":"Raise yourself using your arms. At this point, your weight should be supported by your hands and the balls of your feet. Make a straight line from your head to your heels, and contract your abdominals to keep your hips from sagging. This position is called a plank, which is used for other various exercises. This is the beginning and the end position of a single push-up.", 
+"Pic":"pushupimage/step2.jpg"
+},
+{
+"S_desc":"Step 3", 
+"L_desc":"Pick the type of pushup that works best for you. There are actually three types of basic push up variations that use different muscles. The difference is where you place your hands while in the plank position. The closer your hands are together, the more you will engage your triceps. The wider apart they are, the more you will engage your chest.", 
+"Pic":"pushupimage/step3.jpg"
+}
+],
+"info":{ 
+	"info":"<p style =\"color: #FFFFFF;\">1set - 20 push up</p><p style =\"color: #FFFFFF;\">5 sets daily</P><p style =\"color: #FFFFFF;\">Other types of push up:</p><p style =\"color: #FFFFFF;\">Clap push up</p><p style =\"color: #FFFFFF;\">Diamond push up</p><p style =\"color: #FFFFFF;\">scorpion push up</p><p style =\"color: #FFFFFF;\">spiderman push up</p><p style =\"color: #FFFFFF;\">one-armed push up</p><p style =\"color: #FFFFFF;\">knuckle push up</p><p style =\"color: #FFFFFF;\">fingertip push up</p><p style =\"color: #FFFFFF;\">elevated leg push up</p>"
+}
+},
+{
+"name":"Plank", 
+"img":"Pictures/plank.jpg",
+"desc" : "Plank is an isometric core strength exercise that involves maintaining a difficult position for extended periods of time. The most common plank is the front plank which is held in a push-up position with the body's weight borne on forearms, elbows, and toes. It builds isometric strength to help sculpt your waistline and improve your posture. And depending on the type of plank you try, you can also engage your back, arms, shoulders, glutes, and hamstrings.", 
+"steps":[ 
+{
+"S_desc":"Step 1", 
+"L_desc":"Line up your shoulders directly over your hands and your hips directly over your knees. Inhale deeply. As you breathe in, elongate your spine by lifting your head and tailbone. Exhale, slowly. Round your spine by lifting your belly, dropping your head and rear, and rolling your shoulders forward.", 
+"Pic":"Plank image/plankstep1.jpg"
+},
+{
+"S_desc":"Step 2", 
+"L_desc":"Move your body into the plank pose. Keep your legs extended, your shoulders broad, and your head forward. Hold yourself squarely off the floor with your toes and palms. If you started on all fours, slowly tuck your toes and step back with your feet. Bring your body and your head into one straight line. If you started prone, slowly raise yourself into a basic push-up position.", 
+"Pic":"Plank image/plankstep2.jpg"
+},
+{
+"S_desc":"Step 3", 
+"L_desc":"Find a balance. Keep your thighs lifted. Your body should not curve, but rather should form a straight and balanced line. Be careful not to let to let your hips sink. Align your body so that your shoulders are directly above your wrists, and hold it there.", 
+"Pic":"Plank image/plankstep3.jpg"
+},
+{
+"S_desc":"Step 4", 
+"L_desc":"Hold the pose. Take deep, measured breaths. If you are incorporating the pose into a yoga flow, hold it for five smooth breaths and then transition into the next position. If you are using planks to build strength and stamina, hold the pose for as long as you can. Start with 30-60 seconds, but don't worry too much about keeping in tune with the stopwatch. Focus on perfecting your form and getting the most out of your planks.", 
+"Pic":"Plank image/plankstep4.jpg"
+},
+{
+"S_desc":"Step 5", 
+"L_desc":"End the pose when you are done. Transition to another yoga position, return to your hands and knees, or lay down again to rest, prone.", 
+"Pic":"Plank image/plankstep5.jpg"
+}
+],
+"info":{ 
+	"instruction" : "Inhale and get into plank position",
+	"info":"<p style =\"color: #FFFFFF;\">female - 10 seconds</p><p style =\"color: #FFFFFF;\">Male - 46 seconds</P><p style =\"color: #FFFFFF;\">1 day - 5 times</p><p style =\"color: #FFFFFF;\">3 sets: burn 30 calories</p><p style =\"color: #FFFFFF;\">other types of planks:</p><p style =\"color: #FFFFFF;\">raised leg plank</p><p style =\"color: #FFFFFF;\">side plank</p><p style =\"color: #FFFFFF;\">full plank</p>"
+}
+},
+{
+"name":"Leg Raise", 
+"img":"Pictures/leg raise.jpg", 
+"desc":"Leg raise is a strength training exercise which targets the iliopsoas (the interior hip flexors). Because the abdominal muscles are used isometrically to stabilize the body during the motion, leg raises are also often used to strengthen the rectus abdominis muscle and the internal and external oblique muscles. Most beneficial when you perform them slowly. Swinging your legs back and forth creates momentum rather than working the focus muscle groups, so avoid swinging. Also, follow the leg raises in your abdominal and core workout with exercises that work the opposing muscle group -- the lower back specifically -- and stretch before moving to the next part of your workout.",
+"steps":[ 
+{
+"S_desc":"Step 1", 
+"L_desc":"Lie flat on your back with your legs stretched out in front of you. Your legs should just be a toe's width apart. Make sure to keep your hands down flat on the ground near your sides, with your palms down.", 
+"Pic":"leg raise image/legraisestep1.jpg"
+},
+{
+"S_desc":"Step 2", 
+"L_desc":"Bend your knees and raise your legs. Your calves should be parallel to the ground, while your thighs are perpendicular. You should keep your toes pointed while you do this, drawing your abdominal muscles toward your spine. Your thighs should be perpendicular to your body, while your shins should be parallel.", 
+"Pic":"leg raise image/legraisestep2.jpg"
+},
+{
+"S_desc":"Step 3", 
+"L_desc":"Straighten your legs until your feet are pointed at the ceiling. Keep your toes pointed and raise your legs as slowly as possible. Remember not to let your lower back arch off the ground, or you may injure yourself and you won't be getting as good of a workout.", 
+"Pic":"leg raise image/legraisestep3.jpg"
+},
+{
+"S_desc":"Step 4", 
+"L_desc":"Slowly lower your legs. Bring them down as far as you can while keeping your back flat against the floor. Your eventual goal is to reach about an inch off the floor. Don't just let gravity work for you -- make sure you're in control. Hold your arms in the same place, but use them for strength and support as you lower your legs.", 
+"Pic":"leg raise image/legraisestep4.jpg"
+},
+{
+"S_desc":"Step 5", 
+"L_desc":"Slow it down if this exercise is too easy. For even more of a workout, you can lift your straightened legs all the up on a count of ten, and then lower them down while counting to ten again. This will definitely give your abs a great workout, but it is a bit more of a challenge.", 
+"Pic":"leg raise image/legraisestep5.jpg"
+},
+{
+"S_desc":"Step 6", 
+"L_desc":"Repeat 3 sets of 10-20 leg lifts. Start with 3 sets of 10 and build your way up to 3 sets of 20.", 
+"Pic":"leg raise image/legraisestep6.jpg"
+}
+],
+"info":{ 
+	"info":"<p style =\"color: #FFFFFF;\">10-20 leg raise</p><p style =\"color: #FFFFFF;\">1day - 3 sets</P><p style =\"color: #FFFFFF;\">expert - 3sets of 20</p><p style =\"color: #FFFFFF;\">Other types of leg raise:</p><p style =\"color: #FFFFFF;\">leg raise with a ball</p><p style =\"color: #FFFFFF;\">Hanging leg raise</p><p style =\"color: #FFFFFF;\">Side leg raise</p>"
+}
+},
+{
+"name":"Push Up", 
+"img":"Pictures/push up.jpg", 
+"desc": "Push up is a common calisthenics exercise performed in a prone position by raising and lowering the body using the arms. The standard push up activates nearly every muscle in your body, which yields far more than toned muscles and increased endurance. If you are not convinced about adopting a push up routine into your exercise program, or you simply wish to understand the power of this simple exercise, continue reading to uncover the real benefits of doing push ups.",
+"steps":[ 
+{
+"S_desc":"Step 1", 
+"L_desc":"Assume a face-down prone position on the floor. Keep your feet together. Your weight should be on your chest.", 
+"Pic":"pushupimage/step1.jpg"
+},
+{
+"S_desc":"Step 2", 
+"L_desc":"Raise yourself using your arms. At this point, your weight should be supported by your hands and the balls of your feet. Make a straight line from your head to your heels, and contract your abdominals to keep your hips from sagging. This position is called a plank, which is used for other various exercises. This is the beginning and the end position of a single push-up.", 
+"Pic":"pushupimage/step2.jpg"
+},
+{
+"S_desc":"Step 3", 
+"L_desc":"Pick the type of pushup that works best for you. There are actually three types of basic push up variations that use different muscles. The difference is where you place your hands while in the plank position. The closer your hands are together, the more you will engage your triceps. The wider apart they are, the more you will engage your chest.", 
+"Pic":"pushupimage/step3.jpg"
+}
+],
+"info":{ 
+	"info":"<p style =\"color: #FFFFFF;\">1set - 20 push up</p><p style =\"color: #FFFFFF;\">5 sets daily</P><p style =\"color: #FFFFFF;\">Other types of push up:</p><p style =\"color: #FFFFFF;\">Clap push up</p><p style =\"color: #FFFFFF;\">Diamond push up</p><p style =\"color: #FFFFFF;\">scorpion push up</p><p style =\"color: #FFFFFF;\">spiderman push up</p><p style =\"color: #FFFFFF;\">one-armed push up</p><p style =\"color: #FFFFFF;\">knuckle push up</p><p style =\"color: #FFFFFF;\">fingertip push up</p><p style =\"color: #FFFFFF;\">elevated leg push up</p>"
+}
+
+}
+]
