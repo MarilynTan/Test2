@@ -11,13 +11,15 @@ function update_info(info_data)
   function update_name(name) {
 	$("#exercisename").html(name);
   }
-  
   function update_desc(desc) {
 	$("#exercisedesc").html(desc);
-  
+  }
+   function update_info(info) {
+	$("#info_data").html(info);
   }
   
   	function init(){
+	  
 	  update_info(data[0].info.info);
 	  update_name(data[0].name);
 	  update_desc(data[0].desc);
@@ -25,13 +27,14 @@ function update_info(info_data)
 	  	var slides = data[0].steps;
 	  for( j=0 ; j < slides.length; j++ ) {
 	var temp = '<div>'+
-			'<img id="step'+j+'" src="'+slides[j].Pic+'" alt="Plankstep1" width="450" height="300" border="5">'+
+			'<img id="steps'+j+'" src="'+slides[j].Pic+'" alt="Plankstep1" width="450" height="300" border="5">'+
 			'<h2>'+slides[j].S_desc+'</h2>'+
 			'<p style="padding-right:70px">'+slides[j].L_desc+'</p>'+
 			'</div>';
       
 	  }  
 	}
+  
 
   $('.selectexercise').on('afterChange', function(event, slick, currentSlide) {
       var i = currentSlide;
@@ -40,31 +43,27 @@ function update_info(info_data)
       update_info(data[i].info.info);
 	  update_name(data[i].name);
 	  update_desc(data[i].desc);
-	  
-	  
-
 	  // remove all the current slides
 	  //$('.exerciseinfo').slick('unslick');
-	  //$('.exerciseinfo').empty();
+		$('.carousel-inner').empty();
 		
 	// add slides for carousel
-	var slides = data[i].steps;
+		var slides = data[i].steps;
+		var temp ='';
 	  for( j=0 ; j < slides.length; j++ ) {
-			var temp = '<div>'+
-			'<img id="step'+j+'" src="'+slides[j].Pic+'" alt="Plankstep1" width="450" height="300" border="5">'+
+			if(j == 0) {
+				temp += '<div class="item active">';
+			} else {
+				temp += '<div class="item">';
+			}
+			
+			temp += '<img id="steps'+j+'" src="'+slides[j].Pic+'" alt="Plankstep1" width="450" height="300" border="5">'+
 			'<h2>'+slides[j].S_desc+'</h2>'+
-			'<p style="padding-right:70px">'+slides[j].L_desc+'</p>'+
+			'<p>'+slides[j].L_desc+'</p>'+
 			'</div>';
-	  }  
+	  }
 	  
-	  	  $('.exerciseinfo').carousel({
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				fade: true,
-				//variableWidth: true,
-				//adaptiveHeight: true
-		});
-
+	  $('.carousel-inner').html(temp);
 });
   
 	
