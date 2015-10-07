@@ -34,8 +34,7 @@ function update_info(info_data)
       
 	  }  
 	}
-  
-
+ 
   $('.selectexercise').on('afterChange', function(event, slick, currentSlide) {
       var i = currentSlide;
 	  
@@ -43,11 +42,9 @@ function update_info(info_data)
       update_info(data[i].info.info);
 	  update_name(data[i].name);
 	  update_desc(data[i].desc);
-	  // remove all the current slides
-	  //$('.exerciseinfo').slick('unslick');
 		$('.carousel-inner').empty();
 		
-	// add slides for carousel
+		// add slides for carousel
 		var slides = data[i].steps;
 		var temp ='';
 	  for( j=0 ; j < slides.length; j++ ) {
@@ -81,7 +78,6 @@ function update_info(info_data)
 	  
 		$('.exerciseinfo').carousel();
 		init();
-      //update_info(data[0].info.info);
 
       $(window).keydown(function(event) {
           event.preventDefault();
@@ -115,8 +111,6 @@ function update_info(info_data)
                       $("#container").toggle("slide", {
                           direction: "right"
                       }, 1000);
-                      //setTimeout(function(){window.location.replace("http://118.193.157.12/foodnetwork.html");},5);
-                      //setTimeout(function(){window.location.replace("C:/Users/HYKCHAN/Documents/TV/Interactive_TV/Interactive_Panel/Code/ApplicationsSourceCode/FoodNetwork/foodnetwork.html");},5);
                       setTimeout(function() {
                           window.location.replace("../FoodNetwork/foodnetwork.html");
                       }, 5);
@@ -125,8 +119,6 @@ function update_info(info_data)
                       $("#container").toggle("slide", {
                           direction: "right"
                       }, 1000);
-                      //setTimeout(function(){window.location.replace("http://118.193.157.12:81/index.html");},5);
-                      //setTimeout(function(){window.location.replace("C:/Users/HYKCHAN/Documents/TV/Interactive_TV/Interactive_Panel/Code/ApplicationsSourceCode/LegoTV/index.html");},5);
                       setTimeout(function() {
                           window.location.replace("../LegoTV/index.html");
                       }, 5);
@@ -135,8 +127,6 @@ function update_info(info_data)
                       $("#container").toggle("slide", {
                           direction: "right"
                       }, 1000);
-                      //setTimeout(function(){window.location.replace("http://118.193.157.12/FacebookStarHub/index.html");},5);
-                      //setTimeout(function(){window.location.replace("C:/Users/HYKCHAN/Documents/TV/Interactive_TV/Interactive_Panel/Code/ApplicationsSourceCode/FacebookStarHub/index.html");},5);
                       setTimeout(function() {
                           window.location.replace("../FacebookStarHub/index.html");
                       }, 5);
@@ -151,10 +141,6 @@ function update_info(info_data)
                   break;
               case 71:
               case 61507:
-                  //green
-                  //                $("#container").toggle("slide", {
-                  //                    direction: "right"
-                  //                }, 1000);
                   setTimeout(function() {
                       $("#container").toggle("slide", {
                           direction: "right"
@@ -163,7 +149,6 @@ function update_info(info_data)
                   setTimeout(function() {
                       navigate();
                   }, 1000);
-                  //$("#title").toggle("slide",{direction:"right"},800);
                   break;
           }
       });
