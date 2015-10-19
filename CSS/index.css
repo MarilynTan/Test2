@@ -1,6 +1,6 @@
 .slick-active img 
 	{
-    opacity: 1;
+    opacity: 0.8;
     transition: all 300ms ease;
 	}
 
@@ -11,7 +11,7 @@
     -o-transform: scale(1.08);
     -webkit-transform: scale(1.08); 
     color: #e67e22;
-    opacity: 1 !importance;
+    opacity: 1;
     transform: scale(1.08);
 	border: 20px;
 	}
@@ -20,4 +20,110 @@
 	 .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
-  }
+  }	
+ .slick-cloned img
+ {
+	opacity: 0.8; 
+ }
+
+  h4{
+	  margin-top: 85px;
+	  color: white;
+	  font-size: 25px;
+	  
+  }  
+#holder {  			
+	top: 70px;            			
+	right: 350px;  	      
+	width: 270px;
+	height: 60px;
+	border: none;
+	margin: 0px auto;
+}
+
+#title, #note {
+	color: white;	       
+				 
+}
+
+#note {
+	position: relative;
+	top: 6px;
+	height: 20px;
+	width: 260px;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center; 
+	font-family: Arial; 
+	font-size: 18px;
+	font-weight: bold;    /* options are normal, bold, bolder, lighter */
+	font-style: normal;   /* options are normal or italic */
+	z-index: 1;
+}
+
+.title {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	width: 30px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;    /* options are normal, bold, bolder, lighter */
+	background-color: transparent; 
+}
+
+#timer {
+	position: relative; 
+	top: 0px; 
+	left: 0px;	
+	margin: 5px auto; 
+	text-align: center; 
+	width: 260px;
+	height: 50px;
+	border: none;
+	padding: 10px 5px 20px 5px; 
+	background: #000000;      /* may change to another color, or to "transparent" */
+	border-radius: 30px;
+	box-shadow: 0 0 30px #000000;  /* change to "none" if you don't want a shadow */
+}
+.myButton {
+	-moz-box-shadow: -1px 3px 5px -2px #3dc21b;
+	-webkit-box-shadow: -1px 3px 5px -2px #3dc21b;
+	box-shadow: -1px 3px 5px -2px #3dc21b;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+	background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+	background-color:#44c767;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:25px;
+	padding:1px 62px;
+	text-decoration:none;
+	text-shadow:-1px 1px 6px #2b5c23;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+	background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
