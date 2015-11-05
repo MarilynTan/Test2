@@ -2,6 +2,9 @@
 		var seconds = 10
 		var timer;
 
+	
+var is_play = false;
+
 function update_info(info_data) 
   {
     $("#info_data").html(info_data);
@@ -53,6 +56,7 @@ function update_info(info_data)
 	  update_name(data[i].name);
 	  update_desc(data[i].desc);
 	  document.getElementById("myCounter").innerHTML = (data[i].length);
+	  is_play = false;
 	  clearTimeout(timer);
 	  seconds = data[i].length;
 		$('.carousel-inner').empty();
@@ -77,8 +81,6 @@ function update_info(info_data)
 	  $('.carousel-inner').html(temp);
 });
   
-	
-
 	$(document).ready(function() {
       var slideIndex = 0;
 		
@@ -121,30 +123,14 @@ function update_info(info_data)
               case 13:
               case 61451:
                   //key ok
-                  if (tabindexId == 1) {
-                      $("#container").toggle("slide", {
-                          direction: "right"
-                      }, 1000);
-                      setTimeout(function() {
-                          window.location.replace("../FoodNetwork/foodnetwork.html");
-                      }, 5);
-                  }
-                  if (tabindexId == 2) {
-                      $("#container").toggle("slide", {
-                          direction: "right"
-                      }, 1000);
-                      setTimeout(function() {
-                          window.location.replace("../LegoTV/index.html");
-                      }, 5);
-                  }
-                  if (tabindexId == 3) {
-                      $("#container").toggle("slide", {
-                          direction: "right"
-                      }, 1000);
-                      setTimeout(function() {
-                          window.location.replace("../FacebookStarHub/index.html");
-                      }, 5);
-                  }
+				  if(is_play) {
+					is_play = false;
+					$('#pause').click();
+
+				  } else {
+					is_play = true;
+					$('#play').click();
+				  }
                   break;
               case 8:
               case 61512:
@@ -198,17 +184,23 @@ function play()
 {
 		clearTimeout(timer);
         display() 
-	
+		
+		$('#play').addClass('played');
+		$('#pause').removeClass('paused');
 }
 
 function pause()
 {
 	clearInterval(timer);
+	$('#pause').addClass('paused');
+	$('#play').removeClass('played');	
 }
 
 function stop()
 {
 	setTimeout(); 
+	$('#play').removeClass('played');	
+	$('#pause').removeClass('paused');	
 }
 
 

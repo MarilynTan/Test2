@@ -286,15 +286,15 @@ center
 .buttons a:hover::before {
 	opacity: 1;
 }
-.buttons a.play:hover::before {
+.buttons a.play:hover::before, a.played::before {
 	background-color: #7df3cd;
 }
  
-.buttons a.pause:hover::before {
+.buttons a.pause:hover::before, a.paused::before {
 	background-color: #AD84F2;
 }
  
-.buttons a.stop:hover::before {
+.buttons a.stop:hover, a.stopped {
 	background-color: #F2323B;
 }
 #shadow
