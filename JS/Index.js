@@ -1,3 +1,7 @@
+		var milisec = 00
+		var seconds = 10
+		var timer;
+
 function update_info(info_data) 
   {
     $("#info_data").html(info_data);
@@ -5,7 +9,7 @@ function update_info(info_data)
 
   function update_steps() 
   {
-
+	
   }
   
   function update_name(name) {
@@ -18,21 +22,25 @@ function update_info(info_data)
 	$("#info_data").html(info);
   }
   
-  	function init(){
+  	function init()
+	{
 	  
 	  update_info(data[0].info.info);
 	  update_name(data[0].name);
 	  update_desc(data[0].desc);
+	  document.getElementById("myCounter").innerHTML = (data[0].length);
+	  seconds = data[0].length;
 	  
-	  	var slides = data[0].steps;
-	  for( j=0 ; j < slides.length; j++ ) {
+	var slides = data[0].steps;
+	for( j=0 ; j < slides.length; j++ ) 
+		{
 	var temp = '<div>'+
-			'<img id="steps'+j+'" src="'+slides[j].Pic+'" alt="Plankstep1" width="450" height="300" border="5">'+
+			'<img id="steps'+j+'" src="'+slides[j].Pic+'" alt="Crunches" width="450" height="90" >'+
 			'<h2>'+slides[j].S_desc+'</h2>'+
 			'<p style="padding-right:70px">'+slides[j].L_desc+'</p>'+
 			'</div>';
       
-	  }  
+	    }  
 	}
 
 
@@ -44,7 +52,11 @@ function update_info(info_data)
       update_info(data[i].info.info);
 	  update_name(data[i].name);
 	  update_desc(data[i].desc);
+	  document.getElementById("myCounter").innerHTML = (data[i].length);
+	  clearTimeout(timer);
+	  seconds = data[i].length;
 		$('.carousel-inner').empty();
+		
 		
 		// add slides for carousel
 		var slides = data[i].steps;
@@ -56,7 +68,7 @@ function update_info(info_data)
 				temp += '<div class="item">';
 			}
 			
-			temp += '<img id="steps'+j+'" src="'+slides[j].Pic+'" alt="Plankstep1" width="450" height="300" border="5">'+
+			temp += '<img id="steps'+j+'" src="'+slides[j].Pic+'" alt="Crunches" width="450" height="90" >'+
 			'<h2>'+slides[j].S_desc+'</h2>'+
 			'<p>'+slides[j].L_desc+'</p>'+
 			'</div>';
@@ -156,30 +168,13 @@ function update_info(info_data)
       });
   });
   
-  
-var note="Changed";	/* -->Enter what you want the script to 
-				      display when the target date and time 
-				      are reached, limit to 25 characters */
-		var milisec = 0
-        var seconds = 31
-        document.getElementById("myCounter").innerHTML = '30';
 
-		var todaysec=today.getSeconds();
-//-->    DO NOT CHANGE THE CODE BELOW!    <--	
-d1 = new Image(); d1.src = "digital-numbers/1.png";
-d2 = new Image(); d2.src = "digital-numbers/2.png";
-d3 = new Image(); d3.src = "digital-numbers/3.png";
-d4 = new Image(); d4.src = "digital-numbers/4.png";
-d5 = new Image(); d5.src = "digital-numbers/5.png";
-d6 = new Image(); d6.src = "digital-numbers/6.png";
-d7 = new Image(); d7.src = "digital-numbers/7.png";
-d8 = new Image(); d8.src = "digital-numbers/8.png";
-d9 = new Image(); d9.src = "digital-numbers/9.png";
-d0 = new Image(); d0.src = "digital-numbers/0.png";
-bkgd = new Image(); bkgd.src = "digital-numbers/bkgd.gif";
-
-function display() {
-            if (milisec <= 0) {
+		
+		function display() 
+		{
+	
+	
+			if (milisec <= 0) {
                 milisec = 9
                 seconds -= 1
             }
@@ -189,10 +184,33 @@ function display() {
             }
             else
                 milisec -= 1
-            document.getElementById("myCounter").innerHTML = seconds;
-            setTimeout("display()", 100)
+			if(seconds < 10) {
+				s_seconds = '0' + seconds;
+			} 
+			else {
+				s_seconds = '' + seconds;
+				
+			}
+            document.getElementById("myCounter").innerHTML = s_seconds;
+            timer = setTimeout("display()", 100)
         }
+function play()
+{
+		clearTimeout(timer);
         display() 
+	
+}
+
+function pause()
+{
+	clearInterval(timer);
+}
+
+function stop()
+{
+	setTimeout(); 
+}
+
 
 
 

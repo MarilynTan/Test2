@@ -1,43 +1,35 @@
 var data = [{
-"name":"Plank", 
-"img":"Pictures/plank.jpg", 
-"desc" : "<b>Plank is held in a push-up position with the body's weight borne on forearms, elbows, and toes.</b>",
+"name":"Crunches", 
+"img":"exercisepicture/Crunchesman1.png", 
+"desc" : "<b>A crunch begins with lying face up on the floor with knees bent. Hands can be behind or beside the neck</b>",
+"length" : "60",
 "steps":[ 
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 1</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Line up your shoulders directly over your hands and your hips directly over your knees.</p>", 
-"Pic":"Plank image/plankstep1.jpg"
+"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Lie face up on the ground. Bend your knees and your feet are flat on the floor.</p>", 
+"Pic":"Crunchesimage/Crunchesstep1.jpg"
 },
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 2</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Move your body into the plank pose. Slowly raise yourself into a basic push-up position.</p>", 
-"Pic":"Plank image/plankstep2.jpg"
+"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Place your hands behind your head and lift your head and shoulders slightly off the floor.</p>", 
+"Pic":"Crunchesimage/Crunchesstep2.jpg"
 },
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 3</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Keep your thighs lifted. Your body should not curve, but rather should form a straight and balanced line. Align your body so that your shoulders are directly above your wrists, and hold it there.</p>", 
-"Pic":"Plank image/plankstep3.jpg"
-},
-{
-"S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 4</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Hold it for five smooth breaths and then transition into the next position. If you are using planks to build strength and stamina, hold the pose for as long as you can. Start with 30-60 seconds.</p>", 
-"Pic":"Plank image/plankstep4.jpg"
-},
-{
-"S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 5</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">End the pose when you are done. Transition to another yoga position, return to your hands and knees, or lay down again to rest, prone.</p>", 
-"Pic":"Plank image/plankstep5.jpg"
+"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Go back to the lying position and start from step 1 again.</p>", 
+"Pic":"Crunchesimage/Crunchesstep3.jpg"
 }
 ],
 "info":{ 
 	"instruction" : "Inhale and get into plank position",
-	"info":"<p style =\"color: #FFFFFF; font-size: 18px;\">Female - 10 Seconds</p><p style =\"color: #FFFFFF; font-size: 18px;\">Male - 46 Seconds</P><p style =\"color: #FFFFFF; font-size: 18px;\">1 Day - 5 Times</p><p style =\"color: #FFFFFF; font-size: 18px;\">3 Sets: Burn 30 calories</p><p style =\"color: #FFFFFF; font-size: 18px;\"><b><u>Other types of planks:</u></b></p><p style =\"color: #FFFFFF; font-size: 18px;\">1. Raised Leg Plank</p><p style =\"color: #FFFFFF; font-size: 18px;\">2. Side plank</p><p style =\"color: #FFFFFF; font-size: 18px;\">3. Full plank</p>"
+	"info":"<p style =\"color: #FFFFFF; font-size: 18px;\">1 set - 40 Seconds</P><p style =\"color: #FFFFFF; font-size: 18px;\">1 Day - 5 Times</p><p style =\"color: #FFFFFF; font-size: 18px;\">3 Sets: Burn 30 calories</p><p style =\"color: #FFFFFF; font-size: 18px;\"><b><u>Other types of planks:</u></b></p><p style =\"color: #FFFFFF; font-size: 18px;\">1. Raised Leg Plank</p><p style =\"color: #FFFFFF; font-size: 18px;\">2. Side plank</p><p style =\"color: #FFFFFF; font-size: 18px;\">3. Full plank</p>"
 }
 },
 {
 "name":"Leg Raise", 
-"img":"Pictures/leg raise.jpg", 
+"img":"exercisepicture/legraiseman1,png", 
 "desc":"<b>The leg raise is a strength training exercise which targets the iliopsoas (the interior hip flexors). </b>",
+"length" : "60",
 "steps":[ 
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 1</b>", 
@@ -76,8 +68,9 @@ var data = [{
 },
 {
 "name":"Push Up", 
-"img":"Pictures/push up.jpg", 
+"img":"exercisepicture/pushupman1.png", 
 "desc": "<b>Push up is performed in a prone position by raising and lowering the body using the arms.</b>",
+"length" : "60",
 "steps":[ 
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 1</b>", 
@@ -100,45 +93,37 @@ var data = [{
 }
 },
 {
-"name":"Plank", 
-"img":"Pictures/plank.jpg",
-"desc" : "<b>Plank is held in a push-up position with the body's weight borne on forearms, elbows, and toes.</b>", 
+"name":"Crunches", 
+"img":"exercisepicture/Crunchesman1.jpg", 
+"desc" : "<b>A crunch begins with lying face up on the floor with knees bent. Hands can be behind or beside the neck</b>",
+"length" : "60",
 "steps":[ 
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 1</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Line up your shoulders directly over your hands and your hips directly over your knees.</p>", 
-"Pic":"Plank image/plankstep1.jpg"
+"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Lie face up on the ground. Bend your knees and your feet are flat on the floor.</p>", 
+"Pic":"Crunchesimage/Crunchesstep1.jpg"
 },
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 2</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Move your body into the plank pose. Slowly raise yourself into a basic push-up position.</p>", 
-"Pic":"Plank image/plankstep2.jpg"
+"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Place your hands behind your head and lift your head and shoulders slightly off the floor.</p>", 
+"Pic":"Crunchesimage/Crunchesstep2.jpg"
 },
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 3</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Keep your thighs lifted. Your body should not curve, but rather should form a straight and balanced line. Align your body so that your shoulders are directly above your wrists, and hold it there.</p>", 
-"Pic":"Plank image/plankstep3.jpg"
-},
-{
-"S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 4</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Hold it for five smooth breaths and then transition into the next position. If you are using planks to build strength and stamina, hold the pose for as long as you can. Start with 30-60 seconds.</p>", 
-"Pic":"Plank image/plankstep4.jpg"
-},
-{
-"S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 5</b>", 
-"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">End the pose when you are done. Transition to another yoga position, return to your hands and knees, or lay down again to rest, prone.</p>", 
-"Pic":"Plank image/plankstep5.jpg"
+"L_desc":"<p style=\"color: #FFFFFF; font-size: 23px;\">Go back to the lying position and start from step 1 again.</p>", 
+"Pic":"Crunchesimage/Crunchesstep3.jpg"
 }
 ],
 "info":{ 
 	"instruction" : "Inhale and get into plank position",
-	"info":"<p style =\"color: #FFFFFF; font-size: 18px;\">female - 10 seconds</p><p style =\"color: #FFFFFF; font-size: 18px;\">Male - 46 seconds</P><p style =\"color: #FFFFFF; font-size: 18px;\">1 day - 5 times</p><p style =\"color: #FFFFFF; font-size: 18px;\">3 sets: burn 30 calories</p><p style =\"color: #FFFFFF; font-size: 18px;\">other types of planks:</p><p style =\"color: #FFFFFF; font-size: 18px;\">raised leg plank</p><p style =\"color: #FFFFFF; font-size: 18px;\">side plank</p><p style =\"color: #FFFFFF; font-size: 18px;\">full plank</p>"
+	"info":"<p style =\"color: #FFFFFF; font-size: 18px;\">1 set - 40 seconds</P><p style =\"color: #FFFFFF; font-size: 18px;\">1 day - 5 times</p><p style =\"color: #FFFFFF; font-size: 18px;\">3 sets: burn 30 calories</p><p style =\"color: #FFFFFF; font-size: 18px;\">other types of planks:</p><p style =\"color: #FFFFFF; font-size: 18px;\">raised leg plank</p><p style =\"color: #FFFFFF; font-size: 18px;\">side plank</p><p style =\"color: #FFFFFF; font-size: 18px;\">full plank</p>"
 }
 },
 {
 "name":"Leg Raise", 
 "img":"Pictures/leg raise.jpg", 
 "desc":"<b>The leg raise is a strength training exercise which targets the iliopsoas (the interior hip flexors).</b>",
+"length" : "60",
 "steps":[ 
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 1</b>", 
@@ -179,6 +164,7 @@ var data = [{
 "name":"Push Up", 
 "img":"Pictures/push up.jpg", 
 "desc": "<b>Push up is in a prone position by raising and lowering the body using the arms.</b>",
+"length" : "60",
 "steps":[ 
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 1</b>", 
