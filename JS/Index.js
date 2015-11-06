@@ -39,8 +39,7 @@ function update_info(info_data)
 		{
 	var temp = '<div>'+
 			'<img id="steps'+j+'" src="'+slides[j].Pic+'" alt="Crunches" width="450" height="90" >'+
-			'<h2>'+slides[j].S_desc+'</h2>'+
-			'<p style="padding-right:70px">'+slides[j].L_desc+'</p>'+
+			'<h2>'+slides[j].S_desc+'</h2>'+'<p style="padding-right:70px">'+slides[j].L_desc+'</p>'+
 			'</div>';
       
 	    }  

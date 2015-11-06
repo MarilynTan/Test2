@@ -2,7 +2,7 @@ var data = [{
 "name":"Crunches", 
 "img":"exercisepicture/Crunchesman1.png", 
 "desc" : "<b>A crunch begins with lying face up on the floor with knees bent. Hands can be behind or beside the neck</b>",
-"length" : "60",
+"length" : "40",
 "steps":[ 
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 1</b>", 
@@ -96,7 +96,7 @@ var data = [{
 "name":"Crunches", 
 "img":"exercisepicture/Crunchesman1.jpg", 
 "desc" : "<b>A crunch begins with lying face up on the floor with knees bent. Hands can be behind or beside the neck</b>",
-"length" : "60",
+"length" : "40",
 "steps":[ 
 {
 "S_desc":"<b style =\"font-size: 40px; color: #FF4747;\">Step 1</b>", 
